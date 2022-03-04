@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
             count = count+1
         }else if (num == ans){
             box = "Good Job! The Answer is $num \n You Spend $count Time To Win The Game."+
-                    "\nPause Bottom to start a new round"
+                    "\nChoose a new Number and Pause Bottom to start a new round"
             binding.edTextview.text = box
             ans = (1..100).random()
             min = 1
